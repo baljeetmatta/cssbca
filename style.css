@@ -1,18 +1,25 @@
 p.x {
     background-color: aqua;
 }
-p{
+img{
+    float:left;
+    margin-right: 20px;
+}
+.divclass
+{
     border-bottom:1px;
-    border-style: dotted;
+    border-style: solid;
     border-radius: 5px;;
 
 }
+
 #third {
     background-color: red;
     padding-left:10px;
     /*margin-left:20px;
     margin-top:100px;*/
 }
+
 body{
     /*background-color: aqua;
     background-image: url(images/back.jpg);
@@ -22,14 +29,39 @@ body{
 
 
 }
-a{
+div.nav p a{
     text-decoration: none;
     color:white;
     padding: 4px;
     border-radius: 10px;
     background-color: blue;
 }
-a:hover{
+div.nav a:hover{
 
     background-color: black;
+}
+.first{
+    background-color: red;
+    
+
+}
+.second{
+    background-color: blue;
+   
+}
+.third
+{
+    background-color: green;
+    
+}
+.container div{
+    float:left
+}
+.floatclear{
+    clear:both
+}
+.container::after{
+    content: "";
+    clear:both;
+    display: table;
 }
