@@ -1,0 +1,29 @@
+/* .flex-container div 
+{
+    float:left;
+}
+.flex-container::after{
+    clear:both;
+    content:"";
+    display: table;
+} */
+.flex-container{
+   
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    background-color: blue;
+   /*
+    flex-wrap: nowrap, warp, wrap-reverse
+    justify-content: space-between , space-arounce
+    flex-grow, flex:shrink flex:1
+   */
+  
+  
+    row-gap: 10px;
+}
+.flex-container div{
+    padding: 20px;
+    width: 150px;
+    background-color: beige;
+}
